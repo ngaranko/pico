@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head>
+<title>Hello</title>
+</head>
+<body>
+<a href="/f/{{ next_pic }}"><img src="/static/{% if cached %}tmp/{% endif %}{{ pic }}" alt="{{ pic }}" /></a><br />
+<a href="/send/{{ pic }}" target="blank">Send to me</a>&nbsp; &nbsp; &nbsp; &nbsp;
+<a href="/send_to_family/{{ pic }}" target="blank">Send to family</a>&nbsp; &nbsp; &nbsp; &nbsp;
+<a href="/send_to_family_small/{{ pic }}" target="blank">Send to family small</a>
+</body>
+</html>
